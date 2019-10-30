@@ -1,0 +1,68 @@
+{
+    "messages": {
+        "welcome": "Hi! I'm Telegram Defender.\nI scan links that get posted for malware, and tell you more about news that's posted. Type /help for more information. or go to https://www.telegramdefender.com/",
+        "help": "Hello! I'm Telegram Defender. \nAdd me to your group or channel and I'll scan links people post for Malware. I'll also tell you more about the news sources. You can use the following commands: \n/settings short on/off - toggle short/long response mode. \n/settings mute on/off - mute or unmute me. \n/settings bias on/off - toggle bias-scan \n/help - Ask me for help.",
+        "start": "Hi! I'm Telegram Defender.\nI scan links that get posted for malware, and tell you more about news that's posted. Ask for /help for more informaiton.",
+        "malware_detected": "\uD83E\uDDA0 MALWARE DETECTED \uD83E\uDDA0 \nThis link has been removed.",
+        "allsides_no_stats": "✅ No Malware Detected!\nScanned by: [Avira URL Safety Cloud](https://oem.avira.com/en/solutions/api-web-services)\uD83D\uDE37\nThis publication {url} was not found on Allsides.com",
+        "allsides_found": "✅ No Malware Detected!\nScanned by: [Avira URL Safety Cloud](https://oem.avira.com/en/solutions/api-web-services\uD83D\uDE37\nThis publication has been rated as having a [{side} bias politically]({allsides_url})•[?](https://www.allsides.com/media-bias/media-bias-ratings?utm_source=Live+Partner+Network&utm_medium=Media+Bias+Ratings&utm_campaign=Telegram+Defender)",
+        "no_malware": "✅ No Malware Detected!\nScanned by: [Avira URL Safety Cloud](https://oem.avira.com/en/solutions/api-web-services)",
+        "short_malware": "🚫 Malware Detected. This link has been removed.",
+        "short_no_stats": "❇️ No rating found • [\uD83E\uDD14]({allsides_url})",
+        "short_found": "{emoji} {side} political bias •[\uD83E\uDD14](https://www.allsides.com/media-bias/media-bias-ratings?utm_source=Live+Partner+Network&utm_medium=Media+Bias+Ratings&utm_campaign=Telegram+Defender)",
+        "something_wrong": "Our servers are a bit busy, please try again in a moment.",
+        "permission_denied": "Permission denied.",
+        "replies": {
+            "malware": {
+                "short": "\uD83D\uDEAB MALWARE DETECTED. This link has been removed.",
+                "long": " \uD83E\uDDA0 MALWARE DETECTED \uD83E\uDDA0 \nThis link has been removed."
+            },
+            "no_malware": {
+                "short": "✅ No Malware Detected!\nScanned by: [Avira URL Safety Cloud](https://oem.avira.com/en/solutions/api-web-services)",
+                "long": "✅ No Malware Detected!\nScanned by: [Avira URL Safety Cloud](https://oem.avira.com/en/solutions/api-web-services)"
+            },
+            "no_rating": {
+                "short": "❇️ No rating found • [\uD83E\uDD14]({url})",
+                "long": "✅ No Malware Detected!\nScanned by: [Avira URL Safety Cloud](https://oem.avira.com/en/solutions/api-web-services)\uD83D\uDE37\nThis publication {url} was not found on Allsides.com"
+            },
+            "rating_found": {
+                "short": "{emoji} {side} political bias •[\uD83E\uDD14](https://www.allsides.com/media-bias/media-bias-ratings?utm_source=Live+Partner+Network&utm_medium=Media+Bias+Ratings&utm_campaign=Telegram+Defender)",
+                "long": "✅ No Malware Detected!\nScanned by: [Avira URL Safety Cloud](https://oem.avira.com/en/solutions/api-web-services)\uD83D\uDE37\nThis publication has been rated as having a [{side} bias politically]({allsides_url})•[?](https://www.allsides.com/media-bias/media-bias-ratings?utm_source=Live+Partner+Network&utm_medium=Media+Bias+Ratings&utm_campaign=Telegram+Defender)"
+            }
+        },
+        "state_change_responses": {
+            "mute": {
+                "1": {
+                    "positive": "Alright, I'll be quiet.",
+                    "negative": "I'm already muted."
+                },
+                "0": {
+                    "positive": "Alright, I'll unmute.",
+                    "negative": "I'm already unmuted."
+                }
+            },
+            "short": {
+                "1": {
+                    "positive": "Alright, I've enabled short mode.",
+                    "negative": "I've already enabled short mode."
+                },
+                "0": {
+                    "positive": "Alright, I've disabled short mode.",
+                    "negative": "I've already disabled short mode."
+                }
+            },
+            "bias": {
+                "1": {
+                    "positive": "Alright, I've enabled AllSides.com bias-scan.",
+                    "negative": "I've already enabled AllSides.com bias-scan."
+                },
+                "0": {
+                    "positive": "Alright, I've disabled AllSides.com bias-scan.",
+                    "negative": "I've already disabled AllSides.com bias-scan."
+                }
+            }
+        }
+    },
+    "images_base_dir": ".\/imgs\/",
+    "retry_delay": "60"
+}
