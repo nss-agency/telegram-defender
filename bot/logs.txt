@@ -1,0 +1,16 @@
+2019-10-26 21:36:27.120910----Traceback (most recent call last):
+  File "C:/Users/rosty/PycharmProjects/Bot_for_Yele/bot.py", line 287, in url_handler
+    avira_response = avira.scan_url(urls)
+  File "C:\Users\rosty\PycharmProjects\Bot_for_Yele\AviraPythoApi\Avira.py", line 15, in scan_url
+    response = requests.request("POST", self.url, headers={
+  File "C:\Users\rosty\PycharmProjects\Bot_for_Yele\.env\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\rosty\PycharmProjects\Bot_for_Yele\.env\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\rosty\PycharmProjects\Bot_for_Yele\.env\lib\site-packages\requests\sessions.py", line 452, in prepare_request
+    p.prepare(
+  File "C:\Users\rosty\PycharmProjects\Bot_for_Yele\.env\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "C:\Users\rosty\PycharmProjects\Bot_for_Yele\.env\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'zv601bo8pK4uIz4eYzDoI27f8UJDLabJ4g3xp8Ew': No schema supplied. Perhaps you meant http://zv601bo8pK4uIz4eYzDoI27f8UJDLabJ4g3xp8Ew?
