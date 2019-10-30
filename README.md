@@ -112,7 +112,7 @@ This file contains the API tokens for TelegramBotAPI and Avira URL Safety Cloud 
 
 
 4. Go to your root directory
-    - `git clone https://github.com/yalefox/telegram-defender.git`
+    - `git clone https://github.com/NightSkyStudios/telegram-defender.git`
     
 
 5. Set Python 3.8 as default
